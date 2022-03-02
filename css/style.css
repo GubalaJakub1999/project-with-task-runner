@@ -1,3 +1,20 @@
+ul {
+  list-style-type: none;
+}
 
+a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: white;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.Wstep {
+  text-align: center;
+  color: white;
+}
+
+.obraz-wstep {
+  width: 100%;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHFCQUFBO0FDQ0o7O0FEQ0E7RUFDSSxxQkFBQTtFQUNBLGNBQUE7RUFDQSxZQUFBO0FDRUo7O0FEQUE7RUFDSSxrQkFBQTtFQUNBLFlBQUE7QUNHSjs7QUREQTtFQUNJLFdBQUE7QUNJSiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
