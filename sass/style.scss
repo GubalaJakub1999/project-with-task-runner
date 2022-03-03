@@ -1,15 +1,74 @@
-ul{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-    margin: 0 10px;
-    color: white;
-}
-.Wstep{
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+.wstep-tekst{
     text-align: center;
     color: white;
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        & :visited{
+            color: white;
+        }
+    }
+    a{
+        text-decoration: none;
+        margin: 0 10px;
+        color: white;
+        & :visited{
+            color: white;
+        }
+    }
 }
-.obraz-wstep{
+.tytul{
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+.menu{
+    position: absolute;
+    right: 100px;
+    top: 0;
+}
+.wstep{
     width: 100%;
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+}
+.wstep-header{
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url('https://i.postimg.cc/sfZnqqjw/300715.jpg');
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+}
+.wstep-tekst-dolny{
+    font-size: 40px;
+    color: white;
+    margin: 200px 0;
+    a{
+        color:white;
+        display: inline-block;
+        min-width: 160px;
+        margin: 0 auto 0 auto;
+        padding: 16px;
+        border-radius: 5px;
+        font-family: 'Kanit', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border-width: 2px;
+        border-style: solid;
+        background-position: 100% 0;
+        background-size: 300%;
+
+    }
 }
