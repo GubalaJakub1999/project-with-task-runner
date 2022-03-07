@@ -1,6 +1,9 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: rgb(1, 1, 1);
+    font-family: 'Kanit', sans-serif;
+    color: white;
   }
 .wstep-tekst{
     text-align: center;
@@ -60,7 +63,6 @@ html, body {
         margin: 0 auto 0 auto;
         padding: 16px;
         border-radius: 5px;
-        font-family: 'Kanit', sans-serif;
         font-size: 20px;
         text-align: center;
         text-decoration: none;
@@ -69,6 +71,80 @@ html, body {
         border-style: solid;
         background-position: 100% 0;
         background-size: 300%;
-
     }
+}
+.uslugi{
+    padding: 0;
+}
+.uslugi-title{
+    font-size: 48px;
+    margin: 150px 0 72px 0;
+    text-align: center;
+    color: white;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.usluga{
+    flex: 0 0 33.333%;
+    color: white;
+    text-align: center;
+    margin: 0 0 15px;
+    i{
+        font-size: 80px;
+    }
+}
+.usluga-title{
+    font-weight: bolder;
+    font-size: 24px;
+}
+.postac{
+    flex: 0 0 33.333%;
+    color: white;
+    text-align: center;
+    margin: 0 0 15px;
+}
+.postacie-title{
+    font-size: 48px;
+    margin: 150px 0 72px 0;
+    text-align: center;
+    color: white;
+}
+.postacie{
+    padding: 0;
+}
+.postac-title{
+    font-weight: bolder;
+    font-size: 24px;
+}
+.stopka{
+    background-color: rgb(1, 1, 1);
+    h3{
+        font-size: 25px;
+        margin-right: 20px;
+    }
+}
+.stopka li{
+    font-size: 0;
+    display: inline-block;
+    margin: 48px 5px 48px;
+}
+.stopka ul{
+    margin: 0;
+    text-align: center;
+}
+.stopka i{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(1, 1, 1);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+}
+.stopka a:visited {
+    color: white;
 }
